@@ -1,0 +1,77 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ── Виртуальные окружения ───────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter / Colab ─────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+# Служебные файлы Colab, попадающие в репозиторий случайно
+sample_data/
+drive/
+colab_backup/
+
+# ── Результаты запусков (создаются при локальном запуске) ─
+# Графики и таблицы, сохранённые ноутбуками «на лету».
+# Если нужен конкретный рисунок для README — положите его в docs/img/
+# (эта папка НЕ игнорируется, см. исключение ниже).
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.csv
+*.npy
+*.npz
+*.pkl
+*.log
+!docs/img/
+!docs/img/**
+
+# ── LaTeX (лаб. №8 использует text.usetex = True) ───────
+*.aux
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+tex.cache/
+
+# ── Тесты / линтеры / кэши ──────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+
+# ── IDE / редакторы ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Операционные системы ────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── Временные файлы ─────────────────────────────────────
+*.tmp
+*.bak
+*.orig
